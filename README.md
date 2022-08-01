@@ -2,7 +2,7 @@
 
 The clause support plugin for gorm, that not supported by gorm.
 
-[![test status](https://github.com/WinterYukky/gorm-extra-clause-plugin/actions/workflows/go.yml/badge.svg?branch=main "test status")](https://github.com/WinterYukky/gorm-extra-clause-plugin/actions)
+[![test status](https://github.com/tonidy/gorm-extra-clause-plugin/actions/workflows/go.yml/badge.svg?branch=main "test status")](https://github.com/tonidy/gorm-extra-clause-plugin/actions)
 [![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 ## Support clauses
@@ -12,7 +12,7 @@ The clause support plugin for gorm, that not supported by gorm.
 
 ## Install
 ```shell
-go get github.com/WinterYukky/gorm-extra-clause-plugin
+go get github.com/tonidy/gorm-extra-clause-plugin
 ```
 
 ## Get Started
@@ -24,8 +24,8 @@ import (
   "gorm.io/gorm"
   "gorm.io/driver/sqlite"
   // Add plugin package
-  extraClausePlugin "github.com/WinterYukky/gorm-extra-clause-plugin"
-  "github.com/WinterYukky/gorm-extra-clause-plugin/exclause"
+  extraClausePlugin "github.com/tonidy/gorm-extra-clause-plugin"
+  "github.com/tonidy/gorm-extra-clause-plugin/exclause"
 )
 
 func main() {
